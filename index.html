@@ -3,14 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <title>Davax Oyunu</title>
+
+   <style>
+        body {
+            font-size: 30px;
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+
+        a {
+            color: rgb(7, 5, 8);
+            text-shadow: 3px 3px 2px aqua;
+            text-decoration: none;
+            grid-area: main;
+            position: relative;
+            z-index: 1;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        body ::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("dedo-sarı.jpeg");
+            background-size: cover;
+            background-position: center;
+            opacity: 0.09;
+            z-index: -1;
+        }
+
+        a:hover {
+            color: red;
+            font-size: 40px;
+            text-shadow: 5px 5px 3px black;
+            
+        }
+    </style>
+
 </head>
 <body>
   <h1>DAVAX Oyunu Başlangıç</h1>
   <ul>
     <li><a href="1/index.html">1. Dosya</a></li>
-    <li><a href="2/index.html">2. Dosya</a></li>
+<!--     <li><a href="2/index.html">2. Dosya</a></li>
     <li><a href="1.bölüm/index.html">1. Bölüm</a></li>
-    <li><a href="2.bölüm/index.html">2. Bölüm</a></li>
+    <li><a href="2.bölüm/index.html">2. Bölüm</a></li> -->
   </ul>
 </body>
 </html>
